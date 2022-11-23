@@ -37,16 +37,13 @@ body {
   height: 100vh;
   background-color: var(--very-dark-blue);
 }
-
-.flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+main {
+  width: 100%;
 }
 
 .card {
+  margin: 4.5rem auto;
   width: 327px;
-  height: 780px;
   background-color: var(--dark-desaturated-blue);
   border-radius: 8px;
   overflow: hidden;
@@ -93,6 +90,11 @@ p {
   margin-bottom: 0.5rem;
 }
 @media only screen and (min-width: 90rem) {
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .card {
     width: 1110px;
     height: 446px;
